@@ -10,10 +10,11 @@
 
 terraform {
   backend "s3" {
-    bucket = "aws-devops-terraform-25"
+    bucket = "terraform-tf-amey"
     key    = "key1"
     region = "ap-south-1"
   }
 }
+
 
 
