@@ -57,7 +57,7 @@ variable "instance_count" {
 
 variable "instance_key_name" {
   type    = string
-  default = ""
+  default = "key1"
 }
 
 variable "bucket_name" {
@@ -68,4 +68,5 @@ variable "bucket_name" {
 variable "bucket_acl" {
   type        = string
   description = "provide ACL for the S3 bucket i.e. private, public-read etc."
+
 }
